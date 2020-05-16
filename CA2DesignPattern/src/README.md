@@ -1,30 +1,31 @@
 # Object Orientation Design Pattern - CA2 Assignment 16 May 2020
 
+BSc in Computer IT at College Computing Training CCT Dublin.
+Student name Kim Jang Wong
+Project title Stock Market Trading Simulation Program
+
 # Objective
 
-• Bullet list Determine which design pattern should be used and how design patterns can be tailored for custom use.
- 
-• Bullet list Understand how design patterns are used in industry code to aid the design process on larger projects.
- 
-• Bullet list Utilise their knowledge of design patterns to assess the limitations of an existing application. 
+The aims to this project requirement to design and implement a simulator of a simplified model of a stock market.
+The program will simulate both companies and investors to try to sell and buy a share according to their share and budget availibilities.
+Once the simulation has been completed, the program  must present to the user a menu with the list of possible reports for them to see the result.
+The program  should use of  at least three design patterns implementation and at least two of them must be from structural or behavioural patterns.
 
-# Specification Functionality
-
-The design pattern acquires the application able to simulate and retrieving data from collection object.
-It uses the component class interface to interact with objects in the composition structure.
-If recipient is the leaf then request will be handled directly.
-If recipient is a composite, then it usually forwards the request to its child for performing the additional operations.
+ # Specification Functionality
 
 ## Specific Requirements 
 
-I have chose structural of bridge and facade design patterns.
-The bridge design simply just implement the define method in the interface's package for both instance of Company and Investor,
-where as it uses the component class interface to interact with objects in the composition structure. If recipient is the leaf then request will be handled directly,
-therefore it hides the complexities of the subsystem from the object.
+::Singleton Patterns: used to get a instance of the class MenuActivity, creating a global field for the class
+
+::Bridge Patterns: The CompanyInterface and InvestorInterface to be used for a class signature and should be implemented by its concrete class.
+
+::Builder Patterns: The Company and Investor classes are use to create the instance of the class.
+
+::Command Patterns: used to execute methods to start, to stop simulation  at  the class TradingMarket
 
 Additional to the simulation program, the behaviour uses of the 
 terminology of command design patterns where
-the command interface which implemented by the concrete class would be able to take change of the responsibility to be simulated in the trading market. 
+the displayUpdate method which implemented by the concrete class would be able to take change of the responsibility to be simulated in the trading market. 
 
 ## Compile and Running
  Step 1: move to the ide local directory
