@@ -15,20 +15,20 @@ The program  should use of  at least three design patterns implementation and at
 
 ## Specific Requirements 
 
-::Singleton Patterns: used to get a instance of the class MenuActivity, creating a global field for the class
+Singleton Patterns: used to get a instance of the class MenuActivity, creating a global field for the class
 
-::Bridge Patterns: The CompanyInterface and InvestorInterface to be used for a class signature and should be implemented by its concrete class.
+Bridge Patterns: The CompanyInterface and InvestorInterface to be used for a class signature and should be implemented by its concrete class.
 
-::Builder Patterns: The Company and Investor classes are use to create the instance of the class.
+Builder Patterns: The Company and Investor classes are use to create the instance of the class.
 
-::Command Patterns: used to execute methods to start, to stop simulation  at  the class TradingMarket
+Command Patterns: used to execute methods to start, to stop simulation  at  the class TradingMarket
 
 Additional to the simulation program, the behaviour uses of the 
 terminology of command design patterns where
 the displayUpdate method which implemented by the concrete class would be able to take change of the responsibility to be simulated in the trading market. 
 
 ## Compile and Running
- Step 1: move to the ide local directory
+Step 1: move to the ide local directory
 and run it.
 
 Step 2: Select option either 5 or 6 to generate a list of the company and investor
