@@ -1,0 +1,3 @@
+// this is the link url to my CA2 Design Pattern assignment
+
+https://github.com/wkjess/CA2DesignPattern.git
