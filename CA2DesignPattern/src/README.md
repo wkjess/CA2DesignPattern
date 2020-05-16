@@ -25,3 +25,14 @@ therefore it hides the complexities of the subsystem from the object.
 Additional to the simulation program, the behaviour uses of the 
 terminology of command design patterns where
 the command interface which implemented by the concrete class would be able to take change of the responsibility to be simulated in the trading market. 
+
+## Compile and Running
+ Step 1: move to the ide local directory
+and run it.
+
+Step 2: Select option either 5 or 6 to generate a list of the company and investor
+follow by option 7 to observe the simulation is in progressed
+
+Step 3: Onve all done the option from above, move on and select option 1 to 4 and get the final reports from the company and investor activities.
+
+### Thank you for reading and playing it!
