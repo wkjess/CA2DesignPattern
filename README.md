@@ -28,12 +28,10 @@ terminology of command design patterns where
 the displayUpdate method which implemented by the concrete class would be able to take change of the responsibility to be simulated in the trading market. 
 
 ## Compile and Running
-Step 1: move to the ide local directory
-and run it.
+Step 1: select option 5 and follow by 6 at the beginning to simulate the both company and investor
 
-Step 2: Select option either 5 or 6 to generate a list of the company and investor
-follow by option 7 to observe the simulation is in progressed
+Step 2: select option 7 to simulate the stock market trading program
 
-Step 3: Onve all done the option from above, move on and select option 1 to 4 and get the final reports from the company and investor activities.
+Step 3: run through from option 1 to 4 to observe their selling and buying a share activity reports.
 
 ### Thank you for reading and playing it!
